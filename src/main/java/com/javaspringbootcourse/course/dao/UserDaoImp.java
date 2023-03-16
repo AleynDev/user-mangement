@@ -10,11 +10,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-/**
- * Esta clase se encarga de implementar la interface UserDao
- * y manejara TODO(Aleyn) completar
- * @author aleyn
- */
+
 @Repository // functionality to access the DB repository
 @Transactional
 public class UserDaoImp implements UserDao {

@@ -14,8 +14,6 @@ import java.util.List;
 @RestController
 public class UserController {
 
-    // TODO video -> 4:00h
-
     /**
      * Dependency Injection, DI.
      * Create an object inside the variable.
@@ -31,11 +29,6 @@ public class UserController {
     public User getUser(@PathVariable Long id) {
         User user = new User();
         user.setId(id);
-        user.setName("Aleyn");
-        user.setLastname("Coello");
-        user.setEmail("aleyn@gmail.com");
-        user.setPhone("666777888");
-        user.setPassword("123456");
         return user;
     }
 
